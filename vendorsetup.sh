@@ -39,7 +39,8 @@ export OF_DEVICE_WITHOUT_PERSIST=0
 
 # R11
 export FOX_R11="1"
-export FOX_VERSION="R11.1_0_001"
+export FOX_VERSION="R11.1_0"
+export FOX_BUILD_TYPE="Alpha"
 export OF_MAINTAINER="Sushrut Gupta"
 export FOX_ADVANCED_SECURITY="1"
 export OF_USE_TWRP_SAR_DETECT="1"
