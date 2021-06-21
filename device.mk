@@ -18,3 +18,7 @@
 
 LOCAL_PATH := device/samsung/m01q
 
+# Qcom Common Decryption Trees
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
