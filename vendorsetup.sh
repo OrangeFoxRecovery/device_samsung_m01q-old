@@ -24,7 +24,6 @@ FDEVICE="m01q"
 export TARGET_ARCH=arm
 export TARGET_DEVICE_ALT="m01q,m01qxx,m01qlte,m01qltexx"
 export OF_TARGET_DEVICES="m01q,m01qxx,m01qlte,m01qltexx"
-export FOX_RECOVERY_INSTALL_PARTITION="dev/block/platform/soc/7824900.sdhci/by-name/recovery"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 export OF_AB_DEVICE=0
