@@ -22,14 +22,13 @@ FDEVICE="m01q"
 
 # m01q specific
 export TARGET_ARCH=arm
-export TARGET_DEVICE_ALT="m01q,m01qxx,m01qlte,m01qltexx"
-export OF_TARGET_DEVICES="m01q,m01qxx,m01qlte,m01qltexx"
-export FOX_RECOVERY_INSTALL_PARTITION="dev/block/platform/soc/7824900.sdhci/by-name/recovery"
+export TARGET_DEVICE_ALT="m01q,m01qxx,m01qlte,m01qltexx,m01q*"
+export OF_TARGET_DEVICES="m01q,m01qxx,m01qlte,m01qltexx,m01q*"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 export OF_AB_DEVICE=0
 export OF_DISABLE_MIUI_SPECIFIC_FEATURES=0
-export OF_FLASHLIGHT_ENABLE="0"
+export OF_FLASHLIGHT_ENABLE=1
 export OF_SCREEN_H=2340
 export OF_STATUS_H=85
 export OF_STATUS_INDENT_LEFT=55
@@ -68,6 +67,7 @@ export LZMA_RAMDISK_TARGETS="recovery"
 
 export FOX_USE_BASH_SHELL="1"
 export FOX_ASH_IS_BASH="1"
+export FOX_USE_XZ_UTILS=1
 export FOX_USE_NANO_EDITOR="1"
 export FOX_USE_TAR_BINARY="1"
 export FOX_USE_ZIP_BINARY="1"
@@ -83,5 +83,3 @@ export OF_USE_SYSTEM_FINGERPRINT="1"
 # Run Post Format Process for MTP
 export OF_RUN_POST_FORMAT_PROCESS=1
 
-# Misc.
-export OF_CHECK_OVERWRITE_ATTEMPTS=1
