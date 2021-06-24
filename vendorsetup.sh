@@ -79,6 +79,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
         export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
         export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
+        export FOX_BUGGED_AOSP_ARB_WORKAROUND="1546300800"; # Tuesday, January 1, 2019 12:00:00 AM GMT+00:00
         export FOX_USE_LZMA_COMPRESSION="1"
         export LZMA_RAMDISK_TARGETS="recovery"
 
