@@ -53,6 +53,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_DEVICE_WITHOUT_PERSIST=0
         export FOX_DELETE_AROMAFM=1
         export OF_HIDE_NOTCH=1
+        export OF_FBE_METADATA_MOUNT_IGNORE=1
 
         # R11
         export FOX_BUILD_TYPE="Beta-Unofficial"
