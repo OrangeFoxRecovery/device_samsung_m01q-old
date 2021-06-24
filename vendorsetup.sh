@@ -51,6 +51,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_STATUS_INDENT_RIGHT=55
         export OF_TWRP_COMPATIBILITY_MODE=0
         export OF_DEVICE_WITHOUT_PERSIST=0
+        export FOX_DELETE_AROMAFM=1
 
         # R11
         export FOX_R11="1"
