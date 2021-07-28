@@ -35,3 +35,9 @@ PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Samsung Galaxy M01
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_RELEASE_NAME := Samsung Galaxy M01
+
+# TODO: Try MTP Fix
+# Forcefully add mtp support (adb is already there)
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
+
